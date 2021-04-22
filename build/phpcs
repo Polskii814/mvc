@@ -1,0 +1,133 @@
+
+FILE: C:\cygwin64\home\marcel\dbwebb-kurser\mvc\me\game\src\Dice\Dice.php
+----------------------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------------------
+  5 | ERROR | [x] Header blocks must be separated by a single blank line
+ 13 | ERROR | [x] Incorrect spacing between argument "$faces" and equals sign;
+    |       |     expected 1 but found 0
+ 13 | ERROR | [x] Incorrect spacing between default value and equals sign for
+    |       |     argument "$faces"; expected 1 but found 0
+----------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------------------
+
+
+FILE: C:\cygwin64\home\marcel\dbwebb-kurser\mvc\me\game\src\Dice\DiceGraphic.php
+---------------------------------------------------------------------------------
+FOUND 5 ERRORS AFFECTING 5 LINES
+---------------------------------------------------------------------------------
+  5 | ERROR | [x] Header blocks must be separated by a single blank line
+  8 | ERROR | [x] Whitespace found at end of line
+  9 | ERROR | [x] Expected 0 spaces before opening brace; 1 found
+ 15 | ERROR | [x] Line indented incorrectly; expected at least 8 spaces, found 6
+ 20 | ERROR | [x] Line indented incorrectly; expected at least 8 spaces, found 6
+---------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 5 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+---------------------------------------------------------------------------------
+
+
+FILE: C:\cygwin64\home\marcel\dbwebb-kurser\mvc\me\game\src\Dice\DiceHand.php
+----------------------------------------------------------------------------------
+FOUND 15 ERRORS AFFECTING 14 LINES
+----------------------------------------------------------------------------------
+  5 | ERROR | [x] Header blocks must be separated by a single blank line
+ 17 | ERROR | [x] Line indented incorrectly; expected 8 spaces, found 6
+ 18 | ERROR | [x] Line indented incorrectly; expected at least 12 spaces, found
+    |       |     10
+ 19 | ERROR | [x] Line indented incorrectly; expected 8 spaces, found 6
+ 24 | ERROR | [x] Line indented incorrectly; expected at least 8 spaces, found 6
+ 26 | ERROR | [x] Line indented incorrectly; expected at least 8 spaces, found 6
+ 27 | ERROR | [x] Line indented incorrectly; expected 8 spaces, found 6
+ 28 | ERROR | [x] Line indented incorrectly; expected at least 12 spaces, found
+    |       |     10
+ 29 | ERROR | [x] Line indented incorrectly; expected 8 spaces, found 6
+ 34 | ERROR | [x] Line indented incorrectly; expected at least 8 spaces, found 6
+ 35 | ERROR | [x] Line indented incorrectly; expected 8 spaces, found 6
+ 36 | ERROR | [x] Line indented incorrectly; expected at least 12 spaces, found
+    |       |     10
+ 37 | ERROR | [x] Line indented incorrectly; expected 8 spaces, found 4
+ 37 | ERROR | [x] Closing brace indented incorrectly; expected 6 spaces, found 4
+ 39 | ERROR | [x] Line indented incorrectly; expected at least 8 spaces, found 6
+----------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 15 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------------------
+
+
+FILE: C:\cygwin64\home\marcel\dbwebb-kurser\mvc\me\game\src\Dice\DiceInt.php
+----------------------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------------------
+ 1 | ERROR | [x] End of line character is invalid; expected "\n" but found "\r\n"
+ 5 | ERROR | [x] Header blocks must be separated by a single blank line
+----------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------------------
+
+
+FILE: C:\cygwin64\home\marcel\dbwebb-kurser\mvc\me\game\src\Dice\Game.php
+----------------------------------------------------------------------------------
+FOUND 6 ERRORS AFFECTING 4 LINES
+----------------------------------------------------------------------------------
+ 11 | ERROR | [x] Header blocks must be separated by a single blank line
+ 20 | ERROR | [x] Line indented incorrectly; expected 4 spaces, found 2
+ 20 | ERROR | [x] Opening brace should be on a new line
+ 21 | ERROR | [x] Whitespace found at end of line
+ 22 | ERROR | [x] Line indented incorrectly; expected 4 spaces, found 2
+ 22 | ERROR | [x] Function closing brace must go on the next line following the
+    |       |     body; found 1 blank lines before brace
+----------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 6 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------------------
+
+
+FILE: C:\cygwin64\home\marcel\dbwebb-kurser\mvc\me\game\src\Dice\GraphicalDice.php
+----------------------------------------------------------------------------------
+FOUND 8 ERRORS AFFECTING 7 LINES
+----------------------------------------------------------------------------------
+  1 | ERROR | [x] Header blocks must be separated by a single blank line
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but found
+    |       |     "\r\n"
+  8 | ERROR | [x] Opening brace of a class must be on the line after the
+    |       |     definition
+ 12 | ERROR | [x] Opening brace should be on a new line
+ 13 | ERROR | [x] Line indented incorrectly; expected at least 8 spaces, found 6
+ 16 | ERROR | [x] Opening brace should be on a new line
+ 17 | ERROR | [x] Line indented incorrectly; expected at least 8 spaces, found 6
+ 20 | ERROR | [x] The closing brace for the class must go on the next line after
+    |       |     the body
+----------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 8 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------------------
+
+
+FILE: C:\cygwin64\home\marcel\dbwebb-kurser\mvc\me\game\view\dice.php
+----------------------------------------------------------------------------------
+FOUND 7 ERRORS AFFECTING 6 LINES
+----------------------------------------------------------------------------------
+  1 | ERROR | [x] Header blocks must be separated by a single blank line
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but found
+    |       |     "\r\n"
+ 29 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+ 30 | ERROR | [x] Line indented incorrectly; expected at least 4 spaces, found 2
+ 31 | ERROR | [x] Line indented incorrectly; expected at least 4 spaces, found 2
+ 32 | ERROR | [x] Blank line found at end of control structure
+ 40 | ERROR | [x] Expected 1 space(s) after FOREACH keyword; 0 found
+----------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 7 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------------------
+
+
+FILE: C:\cygwin64\home\marcel\dbwebb-kurser\mvc\me\game\view\game.php
+------------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 3 LINES
+------------------------------------------------------------------------
+ 5 | ERROR | [x] Header blocks must be separated by a single blank line
+ 6 | ERROR | [x] Header blocks must be separated by a single blank line
+ 9 | ERROR | [x] Header blocks must be separated by a single blank line
+------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+------------------------------------------------------------------------
+
+Time: 1.45 secs; Memory: 6MB
+
