@@ -1,5 +1,176 @@
+ ------ --------------------------------------------------------------------------------------------- 
+ [32m Line [39m [32m config\router.php                                                                           [39m 
+ ------ --------------------------------------------------------------------------------------------- 
+  24     Parameter $router of anonymous function has invalid typehint type FastRoute\RouteCollector.  
+[39;49m  25     Call to method addRoute() on an unknown class FastRoute\RouteCollector.[39;49m[39;49m                      [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                           
+[39;49m  26     Call to method addRoute() on an unknown class FastRoute\RouteCollector.[39;49m[39;49m                      [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                           
+  29     Parameter $router of anonymous function has invalid typehint type FastRoute\RouteCollector.  
+[39;49m  30     Call to method addRoute() on an unknown class FastRoute\RouteCollector.[39;49m[39;49m                      [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                           
+  33     Parameter $router of anonymous function has invalid typehint type FastRoute\RouteCollector.  
+[39;49m  34     Call to method addRoute() on an unknown class FastRoute\RouteCollector.[39;49m[39;49m                      [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                           
+[39;49m  35     Call to method addRoute() on an unknown class FastRoute\RouteCollector.[39;49m[39;49m                      [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                           
+ ------ --------------------------------------------------------------------------------------------- 
 
-[30;42m                                                                                 [39;49m
-[30;42m [OK] No errors                                                                  [39;49m
-[30;42m                                                                                 [39;49m
+ ------ ----------------------------------------------------------------------------------------------------------------- 
+ [32m Line [39m [32m src\Controller\Debug.php                                                                                        [39m 
+ ------ ----------------------------------------------------------------------------------------------------------------- 
+[39;49m  12     Used function Mos\Functions\renderView not found.[39;49m[39;49m                                                                [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                               
+  19     Return typehint of method Mos\Controller\Debug::__invoke() has invalid type Psr\Http\Message\ResponseInterface.  
+[39;49m  21     Function Mos\Functions\renderView not found.[39;49m[39;49m                                                                     [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                               
+[39;49m  24     Instantiated class Nyholm\Psr7\Factory\Psr17Factory not found.[39;49m[39;49m                                                   [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                               
+[39;49m  25     Call to method createResponse() on an unknown class Nyholm\Psr7\Factory\Psr17Factory.[39;49m[39;49m                            [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                               
+[39;49m  27     Call to method createStream() on an unknown class Nyholm\Psr7\Factory\Psr17Factory.[39;49m[39;49m                              [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                               
+ ------ ----------------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------------------------------------------------- 
+ [32m Line [39m [32m src\Controller\Error.php                                                                                     [39m 
+ ------ -------------------------------------------------------------------------------------------------------------- 
+[39;49m  10     Used function Mos\Functions\renderView not found.[39;49m[39;49m                                                             [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                            
+  17     Return typehint of method Mos\Controller\Error::do404() has invalid type Psr\Http\Message\ResponseInterface.  
+[39;49m  19     Instantiated class Nyholm\Psr7\Factory\Psr17Factory not found.[39;49m[39;49m                                                [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                            
+[39;49m  26     Function Mos\Functions\renderView not found.[39;49m[39;49m                                                                  [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                            
+[39;49m  28     Call to method createResponse() on an unknown class Nyholm\Psr7\Factory\Psr17Factory.[39;49m[39;49m                         [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                            
+[39;49m  30     Call to method createStream() on an unknown class Nyholm\Psr7\Factory\Psr17Factory.[39;49m[39;49m                           [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                            
+  35     Return typehint of method Mos\Controller\Error::do405() has invalid type Psr\Http\Message\ResponseInterface.  
+[39;49m  37     Instantiated class Nyholm\Psr7\Factory\Psr17Factory not found.[39;49m[39;49m                                                [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                            
+[39;49m  45     Function Mos\Functions\renderView not found.[39;49m[39;49m                                                                  [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                            
+[39;49m  47     Call to method createResponse() on an unknown class Nyholm\Psr7\Factory\Psr17Factory.[39;49m[39;49m                         [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                            
+[39;49m  49     Call to method createStream() on an unknown class Nyholm\Psr7\Factory\Psr17Factory.[39;49m[39;49m                           [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                            
+ ------ -------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------- 
+ [32m Line [39m [32m src\Controller\Form.php                                                                                       [39m 
+ ------ --------------------------------------------------------------------------------------------------------------- 
+[39;49m  11     Used function Mos\Functions\destroySession not found.[39;49m[39;49m                                                          [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                             
+[39;49m  12     Used function Mos\Functions\renderView not found.[39;49m[39;49m                                                              [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                             
+[39;49m  13     Used function Mos\Functions\url not found.[39;49m[39;49m                                                                     [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                             
+  21     Return typehint of method Mos\Controller\Form::view() has invalid type Psr\Http\Message\ResponseInterface.     
+[39;49m  26     Function Mos\Functions\url not found.[39;49m[39;49m                                                                          [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                             
+[39;49m  29     Function Mos\Functions\renderView not found.[39;49m[39;49m                                                                   [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                             
+[39;49m  31     Instantiated class Nyholm\Psr7\Factory\Psr17Factory not found.[39;49m[39;49m                                                 [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                             
+[39;49m  32     Call to method createResponse() on an unknown class Nyholm\Psr7\Factory\Psr17Factory.[39;49m[39;49m                          [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                             
+[39;49m  34     Call to method createStream() on an unknown class Nyholm\Psr7\Factory\Psr17Factory.[39;49m[39;49m                            [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                             
+  39     Return typehint of method Mos\Controller\Form::process() has invalid type Psr\Http\Message\ResponseInterface.  
+[39;49m  43     Instantiated class Nyholm\Psr7\Factory\Psr17Factory not found.[39;49m[39;49m                                                 [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                             
+[39;49m  44     Call to method createResponse() on an unknown class Nyholm\Psr7\Factory\Psr17Factory.[39;49m[39;49m                          [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                             
+[39;49m  46     Function Mos\Functions\url not found.[39;49m[39;49m                                                                          [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                             
+ ------ --------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------- 
+ [32m Line [39m [32m src\Controller\Index.php                                                                                        [39m 
+ ------ ----------------------------------------------------------------------------------------------------------------- 
+[39;49m  10     Used function Mos\Functions\renderView not found.[39;49m[39;49m                                                                [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                               
+  17     Return typehint of method Mos\Controller\Index::__invoke() has invalid type Psr\Http\Message\ResponseInterface.  
+[39;49m  19     Instantiated class Nyholm\Psr7\Factory\Psr17Factory not found.[39;49m[39;49m                                                   [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                               
+[39;49m  26     Function Mos\Functions\renderView not found.[39;49m[39;49m                                                                     [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                               
+[39;49m  28     Call to method createResponse() on an unknown class Nyholm\Psr7\Factory\Psr17Factory.[39;49m[39;49m                            [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                               
+[39;49m  30     Call to method createStream() on an unknown class Nyholm\Psr7\Factory\Psr17Factory.[39;49m[39;49m                              [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                               
+ ------ ----------------------------------------------------------------------------------------------------------------- 
+
+ ------ --------------------------------------------------------------------------------------------------------------- 
+ [32m Line [39m [32m src\Controller\Sample.php                                                                                     [39m 
+ ------ --------------------------------------------------------------------------------------------------------------- 
+[39;49m  10     Used function Mos\Functions\renderView not found.[39;49m[39;49m                                                              [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                             
+  17     Return typehint of method Mos\Controller\Sample::where() has invalid type Psr\Http\Message\ResponseInterface.  
+[39;49m  19     Instantiated class Nyholm\Psr7\Factory\Psr17Factory not found.[39;49m[39;49m                                                 [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                             
+[39;49m  26     Function Mos\Functions\renderView not found.[39;49m[39;49m                                                                   [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                             
+[39;49m  28     Call to method createResponse() on an unknown class Nyholm\Psr7\Factory\Psr17Factory.[39;49m[39;49m                          [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                             
+[39;49m  30     Call to method createStream() on an unknown class Nyholm\Psr7\Factory\Psr17Factory.[39;49m[39;49m                            [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                             
+ ------ --------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------ 
+ [32m Line [39m [32m src\Controller\Session.php                                                                                       [39m 
+ ------ ------------------------------------------------------------------------------------------------------------------ 
+[39;49m  12     Used function Mos\Functions\destroySession not found.[39;49m[39;49m                                                             [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                                
+[39;49m  13     Used function Mos\Functions\renderView not found.[39;49m[39;49m                                                                 [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                                
+[39;49m  14     Used function Mos\Functions\url not found.[39;49m[39;49m                                                                        [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                                
+  22     Return typehint of method Mos\Controller\Session::index() has invalid type Psr\Http\Message\ResponseInterface.    
+[39;49m  24     Instantiated class Nyholm\Psr7\Factory\Psr17Factory not found.[39;49m[39;49m                                                    [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                                
+[39;49m  26     Function Mos\Functions\renderView not found.[39;49m[39;49m                                                                      [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                                
+[39;49m  28     Call to method createResponse() on an unknown class Nyholm\Psr7\Factory\Psr17Factory.[39;49m[39;49m                             [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                                
+[39;49m  30     Call to method createStream() on an unknown class Nyholm\Psr7\Factory\Psr17Factory.[39;49m[39;49m                               [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                                
+  35     Return typehint of method Mos\Controller\Session::destroy() has invalid type Psr\Http\Message\ResponseInterface.  
+[39;49m  37     Function Mos\Functions\destroySession not found.[39;49m[39;49m                                                                  [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                                
+[39;49m  39     Call to method withStatus() on an unknown class Nyholm\Psr7\Response.[39;49m[39;49m                                             [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                                
+[39;49m  39     Instantiated class Nyholm\Psr7\Response not found.[39;49m[39;49m                                                                [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                                
+[39;49m  41     Function Mos\Functions\url not found.[39;49m[39;49m                                                                             [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                                
+ ------ ------------------------------------------------------------------------------------------------------------------ 
+
+ ------ -------------------------------------------------------------------------------------------------------------------- 
+ [32m Line [39m [32m src\Controller\TwigView.php                                                                                        [39m 
+ ------ -------------------------------------------------------------------------------------------------------------------- 
+[39;49m  10     Used function Mos\Functions\renderTwigView not found.[39;49m[39;49m                                                               [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                                  
+  17     Return typehint of method Mos\Controller\TwigView::__invoke() has invalid type Psr\Http\Message\ResponseInterface.  
+[39;49m  19     Instantiated class Nyholm\Psr7\Factory\Psr17Factory not found.[39;49m[39;49m                                                      [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                                  
+[39;49m  26     Function Mos\Functions\renderTwigView not found.[39;49m[39;49m                                                                    [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                                  
+[39;49m  28     Call to method createResponse() on an unknown class Nyholm\Psr7\Factory\Psr17Factory.[39;49m[39;49m                               [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                                  
+[39;49m  30     Call to method createStream() on an unknown class Nyholm\Psr7\Factory\Psr17Factory.[39;49m[39;49m                                 [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                                  
+ ------ -------------------------------------------------------------------------------------------------------------------- 
+
+ ------ -------------------------------------------------------------------- 
+ [32m Line [39m [32m src\Dice\Game.php                                                  [39m 
+ ------ -------------------------------------------------------------------- 
+[39;49m  11     Used function Mos\Functions\url not found.[39;49m[39;49m                          [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols  
+ ------ -------------------------------------------------------------------- 
+
+[37;41m                                                                                                                        [39;49m
+[37;41m [ERROR] Found 70 errors                                                                                                [39;49m
+[37;41m                                                                                                                        [39;49m
 
